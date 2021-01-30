@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/nav_rating"
+        android:title="Rate Us" />
+
+
+    <item
+        android:id="@+id/nav_share"
+        android:title="Share this app" />
+
+    <item
+        android:id="@+id/nav_fb"
+        android:title="Follow us on Facebook" />
+
+    <item
+        android:id="@+id/nav_pinterest"
+        android:title="Follow us on Pinterest" />
+
+
+</menu>
