@@ -49,7 +49,8 @@ class UserAPI(Resource):
             # Check if user already exists in Db
             # add user in Db
             # return success after adding.
-            resp["message"] = "User added successfully"
+            else:
+                resp["message"] = "User added successfully"
         except Exception as e:
             logger.error(e)
             logger.error(type(e))
